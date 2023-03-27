@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cddf017c28b94003ae87d98172b007f9" Name="Diagram1">
+        <EntityTypeShape EntityType="CoffeeHouseModel.Authorization" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Category" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Client" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Gender" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Post" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Product" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Sale" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.SaleProduct" Width="1.5" PointX="7.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Staff" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.Suppilers" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.VW_Auth" Width="1.5" PointX="5.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.VW_AuthStaff" Width="1.5" PointX="5.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.VW_Product" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.VW_Staff" Width="1.5" PointX="7.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeHouseModel.VW_Supp" Width="1.5" PointX="9.75" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__Client__Authoriz__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__Staff__Authoriza__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__Sale__ClientID__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__Staff__GenderID__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__Staff__PostID__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__SaleProdu__Produ__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK_Product_Suppilers" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__Sale__StaffID__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeHouseModel.FK__SaleProdu__SaleI__693CA210" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
